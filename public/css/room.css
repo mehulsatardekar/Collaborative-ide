@@ -1,0 +1,30 @@
+body{
+    background-color: #333;
+    font-family: 'Roboto', 'Open Sans', 'Lucida Grande', sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1,h6{
+    color: white;
+}
+
+.text-col{
+    color:rgb(216, 24, 130);
+}
+
+hr{
+    border: 3px solid rgb(255, 255, 255)(245, 240, 240);
+}
+.text-white{
+    color: white;
+}
+
+.hov{
+    color: white;
+}
+.hov:hover{
+    color: blue;
+}

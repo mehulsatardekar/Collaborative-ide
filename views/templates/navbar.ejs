@@ -1,0 +1,80 @@
+<nav class="navbar navbar-expand-lg navbar-light nav-col">
+  <div class="container-fluid">
+    <ul class="uk-iconnav pr-3" uk-toggle="target: #offcanvas-usage ">
+      <li><a href="" uk-icon="icon: table;ratio:1.5" ></a></li>      
+    </ul>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="uk-float-left navbar-brand anim" uk-tooltip="title:Interview.io; delay:100; pos: right" href="#">
+            Interview.io
+         </a>
+        </li>
+      </ul>   
+    </div>      
+    </div>  
+  </div>
+</nav>
+
+<div id="offcanvas-usage" uk-offcanvas="mode: reveal; bg-close:false">
+  <div class="uk-offcanvas-bar">
+
+      <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+
+      <div class="uk-card-header">
+        <div class="uk-grid-small uk-flex-middle pb-3" uk-grid>
+            <div class="uk-width-auto">
+                <img class="uk-border-circle" width="100" height="100" src="<%=pic%>">
+            </div>
+            <h4><%= name %></h4>
+            <small><%= email %></small>
+        </div>
+       
+    </div>
+    
+      <ul class="uk-nav uk-nav-default">  
+        
+        <li class="uk-nav-header pb-4 uk-lable">Sections</li>
+        
+        <li class="uk-active">
+          <a href="#">
+            <span class="uk-margin-small-right pb-2" uk-icon="icon: file-edit;ratio:1.2"></span>
+            Collaborative Ide
+          </a>
+        </li>
+        <li>
+          <a href="/createrooms">
+            <span class="uk-margin-small-right pl-3 pb-1" uk-icon="icon: user;ratio:0.8"></span>
+             Create Room
+          </a>
+        </li>
+        <li>
+          <a href="/joinrooms">
+            <span class="uk-margin-small-right pl-3 pb-1" uk-icon="icon: users;ratio:0.8"></span>
+            Join Room
+          </a>
+        </li>
+        
+
+        <li class="uk-nav-divider"></li>
+        <div class="mb-3 mt-3">
+
+          <label for="exampleInputEmail1" class="form-label">Room ID<span class="uk-margin-small-right pl-3 pb-1" uk-icon="icon: social;ratio:0.8"></span>
+          </label></br>
+          <span class="username" id="roomid"></span>
+        </div>
+
+     
+      
+    </ul>
+
+
+    <a href="/logout" class="uk-button btn-dark uk-width-1-1 uk-margin-small-bottom mt-3">
+      <span class="uk-margin-small-right" uk-icon="icon: sign-out;ratio:1.2"></span>
+      Sign Out</a>
+
+  </div>
+</div>
+   
+

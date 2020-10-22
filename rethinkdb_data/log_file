@@ -1,0 +1,37 @@
+2020-10-16T13:03:19.130303382 1.217962s notice: Recursively removing directory /home/mehul/Desktop/git-files/google-auth/rethinkdb_data/tmp
+2020-10-16T13:03:19.400438411 1.488104s notice: Initializing directory /home/mehul/Desktop/git-files/google-auth/rethinkdb_data
+2020-10-16T13:03:19.439739490 1.527398s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/mehul/Desktop/git-files/google-auth/rethinkdb_data' did not already exist or is empty.)
+2020-10-16T13:03:19.439932541 1.527590s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2020-10-16T13:03:19.452163857 1.539822s notice: Running on Linux 5.4.0-51-generic x86_64
+2020-10-16T13:03:19.452281364 1.539938s notice: Loading data from directory /home/mehul/Desktop/git-files/google-auth/rethinkdb_data
+2020-10-16T13:03:21.296760971 3.384419s info: Automatically using cache size of 155 MB
+2020-10-16T13:03:21.600471166 3.688128s notice: Listening for intracluster connections on port 29015
+2020-10-16T13:03:22.084282285 4.171940s notice: Listening for client driver connections on port 28015
+2020-10-16T13:03:22.084446515 4.172103s notice: Listening for administrative HTTP connections on port 8080
+2020-10-16T13:03:22.084466265 4.172123s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-10-16T13:03:22.084495442 4.172152s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-10-16T13:03:22.084521591 4.172178s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-10-16T13:03:22.084547561 4.172204s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-10-16T13:03:22.084570964 4.172228s notice: Server ready, "mehulai_rio" e1c07209-4400-436b-a780-ba96eedd442c
+2020-10-16T13:06:21.318740788 183.406398s info: Table ad5df1e9-1330-4d4f-8abb-cfad3db7f47f: Starting a new Raft election for term 1.
+2020-10-16T13:06:21.319441946 183.407100s info: Table ad5df1e9-1330-4d4f-8abb-cfad3db7f47f: Added replica on this server.
+2020-10-16T13:06:21.565954326 183.653612s info: Table ad5df1e9-1330-4d4f-8abb-cfad3db7f47f: This server is Raft leader for term 1. Latest log index is 0.
+2020-10-21T00:02:15.890948688 1.847994s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2020-10-21T00:02:15.972805912 1.929829s notice: Running on Linux 5.4.0-52-generic x86_64
+2020-10-21T00:02:15.972941042 1.929962s notice: Loading data from directory /home/mehul/Desktop/git-files/google-auth/rethinkdb_data
+2020-10-21T00:02:17.871087241 3.828109s info: Automatically using cache size of 463 MB
+2020-10-21T00:02:18.264805811 4.221828s notice: Listening for intracluster connections on port 29015
+2020-10-21T00:02:19.564031784 5.521055s notice: Listening for client driver connections on port 28015
+2020-10-21T00:02:19.564336999 5.521358s notice: Listening for administrative HTTP connections on port 8080
+2020-10-21T00:02:19.564344118 5.521365s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-10-21T00:02:19.564357279 5.521378s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-10-21T00:02:19.564362779 5.521383s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-10-21T00:02:19.564373902 5.521395s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-10-21T00:02:19.564385552 5.521406s notice: Server ready, "mehulai_rio" e1c07209-4400-436b-a780-ba96eedd442c
+2020-10-21T00:02:21.469124659 7.426146s info: Table ad5df1e9-1330-4d4f-8abb-cfad3db7f47f: Starting a new Raft election for term 2.
+2020-10-21T00:02:21.806344724 7.763367s info: Table ad5df1e9-1330-4d4f-8abb-cfad3db7f47f: This server is Raft leader for term 2. Latest log index is 3.
+2020-10-21T03:24:59.309814091 12165.266837s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2020-10-21T03:24:59.584573409 12165.541595s notice: Shutting down client connections...
+2020-10-21T03:24:59.584742534 12165.541763s notice: All client connections closed.
+2020-10-21T03:24:59.584749623 12165.541770s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-10-21T03:25:01.440740626 12167.397764s notice: Storage engine shut down.

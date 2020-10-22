@@ -1,0 +1,32 @@
+{
+  "name": "google-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "codemirror": "^5.58.1",
+    "cookie-session": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "hackerearth-node": "^2.3.9",
+    "http": "0.0.1-security",
+    "jquery": "^3.5.1",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-oauth2": "^1.5.0",
+    "path": "^0.12.7",
+    "rethinkdb": "^2.4.2",
+    "socket.io": "^2.3.0"
+  }
+}

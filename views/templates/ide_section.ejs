@@ -1,0 +1,64 @@
+<main class="container-fluid ide" >
+    <div class="container-fluid" id="editor-container" style="height:80vh">
+     <textarea id="editor" >
+     
+     </textarea>
+ </div>
+</main>
+<div>
+ <div class="card-header run">
+   <form class="row g-3">
+     
+     <div class="col-auto">
+         <button type="button" id="containers" class="btn btn-danger ">Run Code</button>  
+     </div>
+     <div class="col-auto">
+         <select class="form-select input-group" onchange="selectTheme()" id=select>
+               <!-- Dropdown menu links -->
+                 <option class="dropdown-item" selected>ayu-dark</option>
+                  <option class="dropdown-item">icecoder</option>
+                  <option class="dropdown-item">isotope</option>
+                  <option class="dropdown-item">colorforth</option>
+                  <option class="dropdown-item">dracula</option>
+                  <option class="dropdown-item">eclipse</option>
+                  <option class="dropdown-item">material-darker</option>
+                  <option class="dropdown-item">neat</option>
+                  <option class="dropdown-item">rubyblue</option>
+                  <option class="dropdown-item">seti</option>
+             </select>
+     </div>
+     <div class="col-auto">
+      <select class="form-select input-group"  id="language_selector">
+            <!-- Dropdown menu links -->
+              <option class="dropdown-item" value="CPP14" selected="selected">C++ (C++14)</option>
+               <option class="dropdown-item" value="JAVA">JAVA</option>
+               <option class="dropdown-item" value="PYTHON3">PYTHON 3</option>
+               <option class="dropdown-item" value="GO"> GO </option>
+               <option class="dropdown-item" value="JAVASCRIPT_NODE"> JAVASCRIPT (Node.js) </option>
+          </select>
+  </div>
+    <div class="col-auto user">
+     <span class="cuser pl-1">Current User:= </span><span id="username" class="username"></span><br>
+
+    </div>
+    <div class="col-auto user ">
+     <span class="cuser pl-1">Active Users:= </span><span id="activeusers" class="username"></span><br>
+
+    </div>
+    
+   </form>
+</div>
+<!--footer section of ide starts here-->
+<div class="row">
+    
+    <div class="col-4">
+      
+      <textarea placeholder="STD-Input"  class="border border-dark" id="textbox1">
+        
+      </textarea>
+      </div>
+    <div class="col-8">
+      <textarea id="textbox2" placeholder="STD-Output" class="border border-dark" readonly>
+</textarea>
+    </div>
+  </div>
